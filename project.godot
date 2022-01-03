@@ -21,6 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="platformer"
+run/main_scene="res://src/Levels/LevelTemplate.tscn"
 config/icon="res://icon.png"
 
 [input]
@@ -39,6 +40,13 @@ move_right={
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":0,"axis_value":1.0,"script":null)
  ]
 }
+
+[layer_names]
+
+2d_physics/layer_1="player"
+2d_physics/layer_2="enemies"
+2d_physics/layer_3="coins"
+2d_physics/layer_4="world"
 
 [physics]
 
