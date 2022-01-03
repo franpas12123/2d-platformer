@@ -7,17 +7,15 @@
 extents = Vector2( 39, 43.25 )
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( 74, 114 )
 collision_mask = 8
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Player" type="Sprite" parent="."]
-position = Vector2( 0, -48 )
+position = Vector2( 0, -24 )
+scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, -44 )
+position = Vector2( 0, -22 )
+scale = Vector2( 0.5, 0.5 )
 shape = SubResource( 1 )
